@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch checkpoints and weights (large binary files)
+*.pth
+*.pt
+*.onnx
+
+# Dataset directories & archives
+data/
+*.zip
+*.tar.gz
+*.tar
+
+# Prediction outputs
+output_*.png
+prediction_*.png
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# IDE & editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
